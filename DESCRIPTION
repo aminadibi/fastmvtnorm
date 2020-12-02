@@ -6,7 +6,7 @@ Date: 2020-12-02
 Authors@R: c(
     person("Amin", "Adibi", email = "adibi@alumni.ubc.ca", role = c("aut", "cre")),
     person("Abdollah", "Safari", email = "asafari@mail.ubc.ca", role = c("aut", "cph")))
-Description: Faster mvtnorm uses multicores
+Description: Uses parellel processing and handling of special cases to speed up density calculations.
 Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8

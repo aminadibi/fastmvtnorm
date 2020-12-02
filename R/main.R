@@ -13,7 +13,7 @@ binorm_pdf <- function(x, sigma) {
 #' @param mean mean vector, default is rep(0, length = ncol(x)).
 #' @param sigma covariance matrix
 #' @export
-fastdmvnorm <- function(x, mean = rep(0, ncol(x)), sigma) {
+fastdmvnorm <- function(x, mean = rep(0, length(x)), sigma) {
   if (length(x) == 2) {
     result <- binorm_pdf(x, sigma)
   } else {
