@@ -3,11 +3,15 @@ Type: Package
 Title: Faster mvtnorm uses multicores
 Version: 0.0.1
 Date: 2020-12-02
-Author@R: c(
-    person("Amin", "Adibi", email = "adibi@alumni.ubc.ca", role = c("aut", "cre")))
+Authors@R: c(
+    person("Amin", "Adibi", email = "adibi@alumni.ubc.ca", role = c("aut", "cre")),
+    person("Abdollah", "Safari", email = "asafari@mail.ubc.ca", role = c("aut", "cph")))
 Description: Faster mvtnorm uses multicores
+Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
-Imports: Rcpp (>= 1.0.5)
-LinkingTo: Rcpp, RcppArmadillo, parallel
+Imports: 
+    Rcpp (>= 1.0.5), 
+    parallel
+LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 7.1.1

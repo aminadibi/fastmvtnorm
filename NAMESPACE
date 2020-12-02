@@ -3,4 +3,5 @@
 export(fastdmvnorm)
 importFrom(Rcpp,evalCpp)
 importFrom(Rcpp,sourceCpp)
+importFrom(parallel,detectCores)
 useDynLib(fastmvtnorm, .registration=TRUE)

@@ -1,8 +1,4 @@
 #' @useDynLib fastmvtnorm, .registration=TRUE
-#' @importFrom Rcpp sourceCpp
-#' @importFrom Rcpp evalCpp
+#' @importFrom Rcpp sourceCpp evalCpp
+#' @importFrom parallel detectCores
 NULL
-
-.onUnload <- function (libpath) {
-  library.dynam.unload("fastmvtnorm", libpath)
-}
