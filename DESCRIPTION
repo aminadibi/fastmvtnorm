@@ -1,0 +1,13 @@
+Package: fastmvtnorm
+Type: Package
+Title: Faster mvtnorm uses multicores
+Version: 0.0.1
+Date: 2020-12-02
+Author@R: c(
+    person("Amin", "Adibi", email = "adibi@alumni.ubc.ca", role = c("aut", "cre")))
+Description: Faster mvtnorm uses multicores
+License: GPL-3
+Encoding: UTF-8
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo, parallel
+RoxygenNote: 7.1.1
