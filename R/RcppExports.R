@@ -2,6 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 dmvnrm_arma_mc <- function(x, mean, sigma, logd = FALSE, cores = 1L) {
-    .Call('_fastmvtnorm_dmvnrm_arma_mc', PACKAGE = 'fastmvtnorm', x, mean, sigma, logd, cores)
+    .Call(`_fastmvtnorm_dmvnrm_arma_mc`, x, mean, sigma, logd, cores)
 }
 

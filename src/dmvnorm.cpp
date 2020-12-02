@@ -19,7 +19,6 @@ void inplace_tri_mat_mult(arma::rowvec &x, arma::mat const &trimat){
     }
 }
 
-//' @export
 // [[Rcpp::export]]
 arma::vec dmvnrm_arma_mc(arma::mat const &x,
                          arma::rowvec const &mean,
