@@ -4,7 +4,7 @@
 \alias{fastdmvnorm}
 \title{Faster multivariate normal density using multiple processor cores}
 \usage{
-fastdmvnorm(x, mean = rep(0, ncol(x)), sigma)
+fastdmvnorm(x, mean = rep(0, length(x)), sigma)
 }
 \arguments{
 \item{x}{matrix of quantiles. If x is a matrix, each row is taken to be a quantile.}
